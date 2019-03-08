@@ -1,0 +1,27 @@
+#drum-pads{
+  height: 75vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.drum-pad {
+      border: 1px solid black;
+      position: relative;
+      float: left;
+      width: 20vh;
+      height: 20vh;
+      margin-right: 1px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+#display{
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
